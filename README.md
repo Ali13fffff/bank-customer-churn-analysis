@@ -23,7 +23,8 @@ Our exploratory analysis highlighted several critical factors driving customer a
 * **Win-Back Campaigns:** Leverage the cluster of customers with **$0 balances** in France and Spain for low-cost reactivation campaigns.
 * **Product Review:** Investigate why multi-product users (3+ products) are churning at higher rates to improve service quality.
 
-## Future Work
-* Perform data preprocessing for machine learning (encoding, scaling, and feature engineering).
-* Train classification models such as **Random Forest** and **XGBoost**.
-* Evaluate model performance using metrics like Accuracy, Precision, Recall, and F1-score.
+Future Work / Next Steps:
+
+Model Deployment: Developing an API (using FastAPI/Streamlit) to serve the model predictions in real-time.
+Advanced Tuning: Experimenting with feature selection techniques (like SHAP values) to further interpret model decisions.
+Dirty Data Testing: Applying this pipeline to a real-world, uncleaned dataset to test robustness.
